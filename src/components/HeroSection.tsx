@@ -48,17 +48,21 @@ const HeroSection = ({ scrollY }: HeroSectionProps) => {
 
           <div className="flex justify-center space-x-4 sm:space-x-6 mt-6 sm:mt-8 lg:mt-16">
             <a
-              href="mailto:mr.jamlamb@gmail.com"
+              href="mailto:lamber.jakob@gmail.com"
               className="text-gray-600 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full">
               <Mail size={20} className="sm:w-6 sm:h-6" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/jakob-lamber/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full">
               <Linkedin size={20} className="sm:w-6 sm:h-6" />
             </a>
             <a
-              href="#"
+              href="https://github.com/JamLambCode"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full">
               <Github size={20} className="sm:w-6 sm:h-6" />
             </a>

@@ -23,7 +23,7 @@ const ContactSection = () => {
               asChild
               className="w-full sm:w-auto bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-100 px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 text-sm sm:text-base lg:text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105">
               <a
-                href="mailto:mr.jamlamb@gmail.com"
+                href="mailto:lamber.jakob@gmail.com"
                 className="flex items-center justify-center">
                 <Mail
                   className="mr-2 sm:mr-3"
@@ -37,7 +37,11 @@ const ContactSection = () => {
             <Button
               asChild
               className="w-full sm:w-auto bg-orange-600 hover:bg-orange-700 text-white px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 text-sm sm:text-base lg:text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105">
-              <a href="#" className="flex items-center justify-center">
+              <a
+                href="https://www.linkedin.com/in/jakob-lamber/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center">
                 <Linkedin
                   className="mr-2 sm:mr-3"
                   size={18}
@@ -50,7 +54,11 @@ const ContactSection = () => {
             <Button
               asChild
               className="w-full sm:w-auto bg-transparent text-gray-900 dark:text-white border-2 border-gray-900 dark:border-white hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-gray-900 px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 text-sm sm:text-base lg:text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105">
-              <a href="#" className="flex items-center justify-center">
+              <a
+                href="https://github.com/JamLambCode"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center">
                 <Github
                   className="mr-2 sm:mr-3"
                   size={18}
