@@ -15,9 +15,9 @@ const HeroSection = ({ scrollY }: HeroSectionProps) => {
       {/* Hero Image - Responsive and mobile-friendly */}
       <div className="absolute right-2 sm:right-4 lg:right-10 top-1/2 transform -translate-y-1/2 translate-y-2 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-96 lg:h-96 block">
         <img
-          src="/images/about.jpeg"
+          src="/lovable-uploads/11b39fb3-4a6b-4932-897a-572bdf348fea.png"
           alt="Jakob Lamber"
-          className="w-full h-full object-cover rounded-full shadow-lg border-4 border-white dark:border-gray-800"
+          className="w-full h-full object-cover shadow-lg"
           style={{
             transform: `translateY(${scrollY * 0.3}px) translateY(-50%)`,
           }}
